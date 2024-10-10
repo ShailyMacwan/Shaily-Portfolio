@@ -66,7 +66,7 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div>
+      <motion.div className='-mt-20'>
         <p className={styles.heroSubText}>My Work</p>
         <h2 className={styles.heroHeadText}>Projects</h2>
       </motion.div>
