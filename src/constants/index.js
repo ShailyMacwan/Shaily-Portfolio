@@ -13,10 +13,6 @@ export const nodejs = "/assets/nodejs.svg";
 export const mongodb = "/assets/mongodb.svg";
 export const git = "/assets/git.svg";
 export const figma = "/assets/figma.svg";
-export const meta = "/assets/meta.svg";
-export const starbucks = "/assets/starbucks.svg";
-export const tesla = "/assets/tesla.svg";
-export const shopify = "/assets/shopify.svg";
 export const carrent = "/assets/carrent.svg";
 export const jobit = "/assets/jobit.svg";
 export const tripguide = "/assets/tripguide.svg";
@@ -110,150 +106,82 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Full Stack Developer",
+    company_name: "Acyute Technologies",
+    date: "March 2024 - Current",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Designed REST APIs with Express.js and Node.js for a different application, managing the database to ensure seamless data sharing and decision-making processes ",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborated in Agile development using JIRA, Git, and Scrum meetings across multiple projects, ensuring effective teamwork and project management.",
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    company_name: "Aura Lifecare Pvt.Ltd.",
+    date: "May 2021 - Jun 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborated with a team to develop a job posting system mainly for teaching jobs using MERN stack technologies, used by 1+ Million users.",
+      "Involved in web design with HTML, CSS, Tailwind CSS, and React/Redux for seamless, responsive websites, Improved user experience by 15%.",
+      "Designed and implemented scalable database architectures, optimizing data retrieval processes and reducing query times by 20%.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Web Developer Intern",
+    company_name: "MoonWeb Technologies",
+    date: "Jan 2020 - Feb 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a comprehensive web application utilizing the MERN stack, facilitating online ticket booking and member management functionalities, resulting in a 40% increase in online bookings and membership registrations.",
+      "Implemented responsive front-end interfaces across 25 devices, enhancing user experience and accessibility, resulting in a 30% increase in user engagement.",
+      "Led the optimization and maintenance of the MongoDB database, ensuring data integrity and efficient query performance.",
     ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "SmartBlink",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform named Smartblink transforms ordinary homes into smart homes by providing advanced automation solutions for lighting, security, climate control, and entertainment systems, all managed through a user-friendly smartphone app.",
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
+        color: "text-seconary",
       },
       {
         name: "tailwind",
-        color: "pink-text-gradient",
+        color: "text-seconary",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ShailyMacwan/smartblink",
   },
   {
-    name: "Job IT",
+    name: "Jarvis",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Jarvis is an AI virtual assistant that integrates with external services to deliver personalized insights and automation, featuring secure authentication and Python-powered backend processing.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "Python  #Tkinter  #OpenAI API  #SpeechRecognition  #pyttsx3",
+        color: "text-seconary",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ShailyMacwan/Jarvis",
   },
   {
-    name: "Trip Guide",
+    name: "iTask",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "iTask is a lightweight task management app built with React and Tailwind CSS, offering an intuitive interface for organizing and tracking tasks efficiently. ",
     tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "react  #css",
+        color: "text-seconary",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ShailyMacwan/iTasks",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects , navLinks};
+export { services, experiences, technologies, projects , navLinks};
