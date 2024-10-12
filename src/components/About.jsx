@@ -8,7 +8,7 @@ import { SectionWrapper } from '../layout'
 const About = () => {
   return (
     <>
-      <motion.div>
+      <motion.div id='about'>
         <p className={styles.heroSubText}>Introduction</p>
         <h2 className={styles.heroHeadText}>Overview</h2>
       </motion.div>

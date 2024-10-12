@@ -49,7 +49,7 @@ const Experience = () => {
   return (
     <>
 
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant()} id="work">
         <p className={`${styles.sectionSubText}`}>
           What I have done so far
         </p>

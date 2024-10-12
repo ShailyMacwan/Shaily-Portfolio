@@ -1,24 +1,3 @@
-export const mobile = "/assets/mobile.svg";
-export const backend = "/assets/backend.svg";
-export const creator = "/assets/creator.svg";
-export const web = "/assets/web.svg";
-export const javascript = "/assets/javascript.svg";
-export const typescript = "/assets/typescript.svg";
-export const html = "/assets/html.svg";
-export const css = "/assets/css.svg";
-export const reactjs = "/assets/reactjs.svg";
-export const redux = "/assets/redux.svg";
-export const tailwind = "/assets/tailwind.svg";
-export const nodejs = "/assets/nodejs.svg";
-export const mongodb = "/assets/mongodb.svg";
-export const git = "/assets/git.svg";
-export const figma = "/assets/figma.svg";
-export const carrent = "/assets/carrent.svg";
-export const jobit = "/assets/jobit.svg";
-export const tripguide = "/assets/tripguide.svg";
-export const threejs = "/assets/threejs.svg";
-
-
 const navLinks = [
   {
     id: "about",
@@ -34,75 +13,7 @@ const navLinks = [
   },
 ];
 
-const services = [
-  {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
-];
 
-const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-];
 
 const experiences = [
   {
@@ -153,8 +64,30 @@ const projects = [
         color: "text-seconary",
       },
     ],
-    image: carrent,
     source_code_link: "https://github.com/ShailyMacwan/smartblink",
+  },
+  {
+    name: "Portfolio",
+    description:'Personal portfolio',
+    tags: [
+      {
+        name: "react",
+        color: "text-seconary",
+      },
+      {
+        name: "threeJS",
+        color: "text-seconary",
+      },
+      {
+        name: "tailwind",
+        color: "text-seconary",
+      },
+      {
+        name: "motion",
+        color: "text-seconary",
+      },
+    ],
+    source_code_link: "https://github.com/ShailyMacwan/shaily-portfolio",
   },
   {
     name: "Jarvis",
@@ -166,7 +99,6 @@ const projects = [
         color: "text-seconary",
       },
     ],
-    image: jobit,
     source_code_link: "https://github.com/ShailyMacwan/Jarvis",
   },
   {
@@ -179,9 +111,8 @@ const projects = [
         color: "text-seconary",
       },
     ],
-    image: tripguide,
     source_code_link: "https://github.com/ShailyMacwan/iTasks",
   },
 ];
 
-export { services, experiences, technologies, projects , navLinks};
+export { experiences, projects , navLinks};
