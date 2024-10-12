@@ -6,7 +6,6 @@ import { SectionWrapper } from '../layout';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 // import { scale } from "maath";
-
 const ProjectCard = ({
   index,
   name,
@@ -19,9 +18,9 @@ const ProjectCard = ({
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{
-          max: 45,
+          max: 10, // Reduced max tilt
           scale: 1,
-          speed: 450,
+          speed: 250, // Reduced speed
         }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
@@ -29,7 +28,7 @@ const ProjectCard = ({
           <img
             src={image}
             alt="project_image"
-            className="w-full h-full object-cover rounded-2xl"
+            className="w-full h-full object-contain rounded-2xl"
           />
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
@@ -62,6 +61,7 @@ const ProjectCard = ({
     </motion.div>
   );
 };
+
 
 const Works = () => {
   return (

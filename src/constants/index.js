@@ -1,3 +1,5 @@
+import { image } from "framer-motion/client";
+
 const navLinks = [
   {
     id: "about",
@@ -64,7 +66,33 @@ const projects = [
         color: "text-seconary",
       },
     ],
+    image: '/projects/SMARTBLINK.png',
     source_code_link: "https://github.com/ShailyMacwan/smartblink",
+  },
+  {
+    name: "iTask",
+    description:
+      "iTask is a lightweight task management app built with React and Tailwind CSS, offering an intuitive interface for organizing and tracking tasks efficiently. ",
+    tags: [
+      {
+        name: "react  #css",
+        color: "text-seconary",
+      },
+    ],
+    image: '/projects/iTask.png',
+    source_code_link: "https://github.com/ShailyMacwan/iTasks",
+  },
+  {
+    name: "Jarvis",
+    description:
+      "Jarvis is an AI virtual assistant that integrates with external services to deliver personalized insights and automation, featuring secure authentication and Python-powered backend processing.",
+    tags: [
+      {
+        name: "Python  #Tkinter  #OpenAI API  #SpeechRecognition  #pyttsx3",
+        color: "text-seconary",
+      },
+    ],    image: '/projects/jarvis.png',
+    source_code_link: "https://github.com/ShailyMacwan/Jarvis",
   },
   {
     name: "Portfolio",
@@ -87,31 +115,8 @@ const projects = [
         color: "text-seconary",
       },
     ],
+    image: '/projects/portfolio.png',
     source_code_link: "https://github.com/ShailyMacwan/shaily-portfolio",
-  },
-  {
-    name: "Jarvis",
-    description:
-      "Jarvis is an AI virtual assistant that integrates with external services to deliver personalized insights and automation, featuring secure authentication and Python-powered backend processing.",
-    tags: [
-      {
-        name: "Python  #Tkinter  #OpenAI API  #SpeechRecognition  #pyttsx3",
-        color: "text-seconary",
-      },
-    ],
-    source_code_link: "https://github.com/ShailyMacwan/Jarvis",
-  },
-  {
-    name: "iTask",
-    description:
-      "iTask is a lightweight task management app built with React and Tailwind CSS, offering an intuitive interface for organizing and tracking tasks efficiently. ",
-    tags: [
-      {
-        name: "react  #css",
-        color: "text-seconary",
-      },
-    ],
-    source_code_link: "https://github.com/ShailyMacwan/iTasks",
   },
 ];
 
