@@ -20,7 +20,7 @@ const ProjectCard = ({
         options={{
           max: 10, // Reduced max tilt
           scale: 1,
-          speed: 250, // Reduced speed
+          speed: 400, // Reduced speed
         }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
