@@ -23,10 +23,11 @@ const experiences = [
     company_name: "Acyute Technologies",
     date: "March 2024 - Current",
     points: [
-      "Designed REST APIs with Express.js and Node.js for a different application, managing the database to ensure seamless data sharing and decision-making processes ",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Collaborated in Agile development using JIRA, Git, and Scrum meetings across multiple projects, ensuring effective teamwork and project management.",
+      
+      "Developed a web-based recruitment system for job seekers and recruiters using HTML5, CSS3, Bootstra and Ajax/jQuery",
+      "Implemented core features such as job posting, profile management, and candidate filtering using ASP.NET MVC and C#",
+      "Automated email notifications for candidate acceptance/rejection with feedback.",
+      "Utilized SQL Server for database management and IIS-10 as a local development server"
     ],
   },
   {
@@ -34,7 +35,8 @@ const experiences = [
     company_name: "Aura Lifecare Pvt.Ltd.",
     date: "May 2021 - Jun 2023",
     points: [
-      "Collaborated with a team to develop a job posting system mainly for teaching jobs using MERN stack technologies, used by 1+ Million users.",
+      "Designed REST APIs with Express.js and Node.js for a different application, managing the database to ensure seamless data sharing and decision-making processes ",
+      "Collaborated in Agile development using JIRA, Git, and Scrum meetings across multiple projects, ensuring effective teamwork and project management.",
       "Involved in web design with HTML, CSS, Tailwind CSS, and React/Redux for seamless, responsive websites, Improved user experience by 15%.",
       "Designed and implemented scalable database architectures, optimizing data retrieval processes and reducing query times by 20%.",
     ],
@@ -44,9 +46,9 @@ const experiences = [
     company_name: "MoonWeb Technologies",
     date: "Jan 2020 - Feb 2021",
     points: [
-      "Developed a comprehensive web application utilizing the MERN stack, facilitating online ticket booking and member management functionalities, resulting in a 40% increase in online bookings and membership registrations.",
-      "Implemented responsive front-end interfaces across 25 devices, enhancing user experience and accessibility, resulting in a 30% increase in user engagement.",
-      "Led the optimization and maintenance of the MongoDB database, ensuring data integrity and efficient query performance.",
+      "Built a comprehensive MERN stack application for online ticket booking, increasing online bookings by 40%.",
+      " Developed responsive front-end interfaces, leading to a 30% increase in user engagement.",
+      "Optimized and maintained MongoDB, ensuring data integrity and efficient query performance."
     ],
   },
 ];
