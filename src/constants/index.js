@@ -109,6 +109,18 @@ const projects = [
     source_code_link: "https://github.com/ShailyMacwan/FoodiesStop",
   },
   {
+    name: "EMS",
+    description:
+      "A web application which manages employee's data and generate reports with the helpof MongoDB and MySQL database",
+    tags:[ {
+        name: "C# #MySql 3MongoDB",
+        color: "text-seconary",
+      },
+    ],
+    image: '/projects/FoodiesStop.png',
+    source_code_link: "https://github.com/ShailyMacwan/EMS/tree/master/firstProject",
+  },
+  {
     name: "Portfolio",
     description:'Personal portfolio',
     tags: [
