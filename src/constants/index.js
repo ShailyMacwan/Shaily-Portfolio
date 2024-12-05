@@ -119,7 +119,7 @@ const projects = [
         color: "text-seconary",
       },
     ],
-    image: '/projects/FoodiesStop.png',
+    image: '/projects/EMS.png',
     source_code_link: "https://github.com/ShailyMacwan/EMS/tree/master/firstProject",
   },
   {
