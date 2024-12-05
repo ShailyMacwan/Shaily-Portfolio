@@ -115,7 +115,7 @@ const projects = [
     description:
       "A web application which manages employee's data and generate reports with the helpof MongoDB and MySQL database",
     tags:[ {
-        name: "C# #MySql 3MongoDB",
+        name: "C# #MySql #MongoDB",
         color: "text-seconary",
       },
     ],
