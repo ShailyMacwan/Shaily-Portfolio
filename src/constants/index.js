@@ -70,18 +70,19 @@ const projects = [
     source_code_link: "https://github.com/ShailyMacwan/smartblink",
   },
   {
-    name: "iTask",
+    name: "VITE HIRE",
     description:
-      "iTask is a lightweight task management app built with React and Tailwind CSS, offering an intuitive interface for organizing and tracking tasks efficiently. ",
+      "An online recruiter system features a normalized database, role-based access, and report generation to aid decision-making.",
     tags: [
       {
-        name: "react  #css",
+        name: "C# #ASP.NET With MVC Framework #jQuery #AJAX #IIS-10",
         color: "text-seconary",
       },
     ],
-    image: '/projects/iTask.png',
-    source_code_link: "https://github.com/ShailyMacwan/iTasks",
+    image: '/projects/Vitehire.jpg',
+    source_code_link: "https://github.com/ShailyMacwan/Vitehire/tree/master/Vitehire",
   },
+
   {
     name: "Jarvis",
     description:
@@ -93,6 +94,19 @@ const projects = [
       },
     ],    image: '/projects/jarvis.png',
     source_code_link: "https://github.com/ShailyMacwan/Jarvis",
+  },
+  {
+    name: "Foodies Stop",
+    description:
+      "A dynamic website built using c#, MySQL, and SMTP for email communication. It allows food enthusiasts to explore and order from a variety of cuisines with features like and email notifications for order updates",
+    tags: [
+      {
+        name: "C# #MySql",
+        color: "text-seconary",
+      },
+    ],
+    image: '/projects/FoodiesStop.png',
+    source_code_link: "https://github.com/ShailyMacwan/FoodiesStop",
   },
   {
     name: "Portfolio",
